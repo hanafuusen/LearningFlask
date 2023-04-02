@@ -25,3 +25,26 @@ __pycache__
 .DS_Store
 ```
 
+# 創建虛擬環境
+
+使用 Python 3 内置的 venv 模塊創建
+```
+$ python -m venv env
+```
+
+激活虛擬環境
+```
+$ . env/Scripts/activate
+```
+
+退出虛擬環境
+```
+(env) $ deactivate
+```
+
+# 安裝 Flask
+
+在虛擬環境安裝
+```
+(env) $ pip install flask
+```
